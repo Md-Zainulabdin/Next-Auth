@@ -47,7 +47,7 @@ export const Options = {
             return session;
         }
     }
-}
+};
 
 const handler = NextAuth(Options);
 export { handler as GET, handler as POST };
