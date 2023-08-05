@@ -45,8 +45,8 @@ const SignUpPage = () => {
             <title>Sign-up</title>
         </head>
             <div className="w-full h-[100vh] customflex">
-                <div className="w-[70%] h-[600px] border customflex flex-col md:flex-row shadow-xl overflow-hidden rounded-xl">
-                    <div className="w-[50%] h-full bg-[--primary-color] customflex">
+                <div className="w-[80%] sm:w-[70%] h-[600px] border customflex flex-col md:flex-row shadow-xl overflow-hidden rounded-xl">
+                    <div className="w-0 md:w-[50%] sm:hidden md:inline-flex h-full bg-[--primary-color] customflex">
                         <div className="overflow-hidden">
                             <div className="w-full text-center customflex flex-col gap-2">
                                 <h1 className="poppins text-4xl font-semibold text-white">Welcome</h1>
@@ -55,7 +55,7 @@ const SignUpPage = () => {
                             <img src="/signup.png" alt="Sign up image" className="mt-3 rotate-[-90deg] w-[250px] md:w-[280px] lg:w-[320px] drop-shadow-sm" />
                         </div>
                     </div>
-                    <div className="w-[50%] h-full p-8 customflex">
+                    <div className="w-full md:w-[50%] h-full p-8 customflex">
                         <div className="w-full text-left p-4">
                             <h1 className="text-3xl font-semibold text-[--primary-black] mb-8">Sign Up</h1>
                             <hr />

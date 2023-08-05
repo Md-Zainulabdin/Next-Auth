@@ -42,7 +42,7 @@ const LoginPage = () => {
                 <title>Login</title>
             </head>
             <div className="w-full h-[100vh] customflex">
-                <div className="w-[30%] h-[500px] border flex flex-row shadow-xl overflow-hidden rounded-xl">
+                <div className="w-[80%] sm:w-[60%] md:w-[40%] lg:w-[35%] h-[500px] border flex flex-row shadow-xl overflow-hidden rounded-xl">
                     <div className="w-full h-full p-8 flex flex-col items-start justify-center">
                         <h1 className="text-3xl font-semibold text-[--primary-black] mb-8">Login</h1>
                         <span className="w-full border-b "></span>
